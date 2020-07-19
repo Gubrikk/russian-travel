@@ -18,3 +18,9 @@
       width: 288px;
     }
 }
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+      width: 270px;
+  }
+}

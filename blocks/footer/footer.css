@@ -23,3 +23,10 @@
     align-items: flex-start;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .footer {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}

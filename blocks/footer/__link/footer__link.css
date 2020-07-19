@@ -11,9 +11,11 @@
     transition: 0.4s; 
     opacity:1;
 }
+
 .footer__link:hover {
-  opacity: 0.5;  
+    opacity: 0.5;  
 }
+
 @media (max-width: 700px) {
     .footer__link {
       font-size: 24px;
