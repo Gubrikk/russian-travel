@@ -22,11 +22,18 @@
       margin-bottom: 84px;
     }
 }
-  
+
+@media (max-width: 855px) {
+  .place {
+    grid-gap: 48px 20px;
+    grid-template-columns: 340px minmax(100px, 352px);
+    margin-bottom: 72px;
+  }
+} 
+
 @media (max-width: 768px) {
     .place {
       grid-gap: 48px 28px;
-      grid-template-columns: 340px minmax(100px, 352px);
       margin-bottom: 72px;
     }
 }
