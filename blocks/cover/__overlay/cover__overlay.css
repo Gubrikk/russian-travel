@@ -21,9 +21,9 @@
     bottom: 0;
     background-color: #2A2C2F;
     transition: all .7s ease-in-out;
-    background: rgba(0, 0, 0, 0.3);
+    opacity: 0.3;
 }
   
 .cover__overlay:hover:before {
-    background: rgba(0, 0, 0, 0.8);
+    opacity: 0.8;
 }
