@@ -1,4 +1,4 @@
-.header__lang-link-used {
+.header__lang-link_used {
     font-family: 'inter', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -9,12 +9,12 @@
     opacity:1;
 }
 
-.header__lang-link-used:hover {
+.header__lang-link_used:hover {
     opacity: 0.5;
 }
 
 @media (max-width: 320px) {
-    .header__lang-link-used {
+    .header__lang-link_used {
       font-size: 18px;
       line-height: 24px;
     }
